@@ -1,0 +1,77 @@
+body{
+    font-family: Verdana, sans-serif;
+    background-color: #f7f7f7;
+    max-width: 900px;
+    margin:auto;
+}
+
+#top{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#imagem{
+    border : 1px solid #505050;
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+}
+
+#containerImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tituloPrincipal, #subTitulo, #tituloPost {
+    color:#505050;
+}
+
+#tituloPrincipal{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: line-through;
+    color: #505050;
+}
+
+#tituloPost{
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    margin:0;
+    margin-bottom: 15px;
+}
+
+#primeiroArtigo{
+    background-color: #fff;
+    padding:15px;
+    border:3px solid #505050;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+#containerPost{
+    margin:0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+#imagemPost{
+    margin-bottom: 15px;
+    width:100%;
+}
+
+.listaConteudos{
+    list-style-type: none;
+    padding-left: 15px;
+    text-align: right;
+}
+
+.listaConteudos li a {
+    text-decoration: none;
+}
