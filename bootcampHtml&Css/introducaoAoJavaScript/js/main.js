@@ -12,8 +12,8 @@ console.log(idade+idade2);
 console.log(frase)
 console.log(frase.replace("Japão", "Brasil").toUpperCase());*/
 
-
-/*    ************** AULA 2 ************** 
+ /*
+/   ************** AULA 2 ************** 
 var lista = ["maça", "pêra", "laranja"];
 lista.push("uva");
 console.log(lista);
@@ -32,8 +32,8 @@ var fruits = [{nome: "maça", cor: "vermelha"},{nome: "uva", cor: "roxa"}]
 console.log(fruits);
 console.log(fruits[1].nome); // alert(fruits[1].nome);
 console.log(fruits[1].cor); // alert(fruits[1].cor);
-*/
 
+ */
 
 /*    ************** AULA 3 ************** 
 
