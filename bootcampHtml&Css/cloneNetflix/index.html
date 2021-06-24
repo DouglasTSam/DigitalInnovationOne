@@ -5,39 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style/main.css" />
     <link rel="text/javascript" href="js/main.js" />
-    
+    <link rel="sortcut icon" href="img/icon-netf.ico" sizes="32x32" type="image/gif" />
+
     <!-- responsividade -->
-    <link rel="stylesheet" href="style/responsividade.css">
+    <link rel="stylesheet" href="style/responsividade.css" />
 
     <!-- owl css -->
-    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
-    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
-    
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css" />
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css" />
+
     <title>Netlix CLONE</title>
   </head>
   <body>
     <header>
       <div class="container">
-        <div class="logo">
-          <h2 class="logoTitulo">N</h2>
-          <h2 class="subLogo">ETFLI</h2>
-          <h2 class="logoTitulo">X</h2>
+        <div id="menu">
+          <div class="logo">
+            <h2 class="logoTitulo">N</h2>
+            <h2 id="subLogo">ETFLI</h2>
+            <h2 class="logoTitulo">X</h2>
+          </div>
+          <nav>
+            <a href="#inicio">Início</a>
+            <a href="#series">Séries</a>
+            <a href="#filmes">Filmes</a>
+            <a href="#documentarios">Documentários</a>
+          </nav>
         </div>
-        <nav>
-          <a href="#">Início</a>
-          <a href="#">Séries</a>
-          <a href="#">Filmes</a>
-          <a href="#">Documentários</a>
-        </nav>
       </div>
     </header>
     <main>
       <div class="filmePrincipal">
-        <div class="container">
-          <h3 class="titulo">SEM REMORSO</h3>
+        <div id="inicio" class="container">
+          <h3 class="titulo">House of Cards</h3>
           <p class="descricao">
-            Um agente da CIA busca vingança depois de sua namorada ter sido
-            morta por um traficante de Baltimore.
+            Um político inescrupuloso não mede esforços para conquistar o poder nos EUA neste drama vencedor do Emmy e do Globo de Ouro.
           </p>
           <div class="botoes">
             <button class="botaoPrincipal" role="button">
@@ -50,20 +52,323 @@
         </div>
       </div>
     </main>
-<div class="carroselFilmes">
-  <div class="owl-carousel owl-theme">
-    <div class="item"><img class=".boxFilme" src ="img/gameOfThrones.jpg" alt ="game of thrones"/></div>
-    <div class="item"><img class=".boxFilme" src ="img/godzila.jpg" alt ="godzila vs kong"/></div>
-    <div class="item"><img class=".boxFilme" src ="img/goodDoctor.jpg" alt ="the good doctor"/></div>
-    <div class="item"><img class=".boxFilme" src ="img/graysAnatomy.jpg" alt ="gray's anatomy"/></div>
-    <div class="item"><img class=".boxFilme" src ="img/invocacao.jpg" alt ="invocação do mal"/></div>
-    <div class="item"><img class=".boxFilme" src ="img/monterpet.jpg" alt ="monster pet"/></div>
-    <div class="item"><img class=".boxFilme" src ="img/ragnarok.jpg" alt ="ragnarok"/></div>
-    <div class="item"><img class=".boxFilme" src ="img/simpsons.jpg" alt ="the simpsons"/></div>
-    <div class="item"><img class=".boxFilme" src ="img/imagemLupin.jpg" alt ="lupin"/></div>
-    <div class="item"><img class=".boxFilme" src ="img/imagemRiverDale.jpg" alt ="river dale"/></div>
-  </div>
-</div>
+    <div class="carroselFilmes">
+      <h3 id="assistidos">Assistidos recentemente</h3>
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/assistidos/gameOfThrones.jpg"
+            alt="Game of thrones"
+          />
+        </div>
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/assistidos/godzila.jpg"
+            alt="Godzila vs kong"
+          />
+        </div>
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/assistidos/goodDoctor.jpg"
+            alt="The good doctor"
+          />
+        </div>
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/assistidos/graysAnatomy.jpg"
+            alt="Gray's anatomy"
+          />
+        </div>
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/assistidos/invocacao.jpg"
+            alt="Invocação do mal"
+          />
+        </div>
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/assistidos/monterpet.jpg"
+            alt="Monster pet"
+          />
+        </div>
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/assistidos/ragnarok.jpg"
+            alt="Ragnarok"
+          />
+        </div>
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/assistidos/simpsons.jpg"
+            alt="The simpsons"
+          />
+        </div>
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/assistidos/imagemLupin.jpg"
+            alt="Lupin"
+          />
+        </div>
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/assistidos/imagemRiverDale.jpg"
+            alt="River dale"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="carroselFilmes">
+      <h3 id="series">Séries</h3>
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/series/goodDoctor.jpg"
+            alt="The good doctor"
+          />
+        </div>
+        <div class="item">
+          <img class=".boxFilme" src="img/series/elite.jpg" alt="Elite" />
+        </div>
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/series/gameOfThrones.jpg"
+            alt="Game of thrones"
+          />
+        </div>
+        <div class="item">
+          <img class=".boxFilme" src="img/series/flash.jpg" alt="Flash" />
+        </div>
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/series/graysAnatomy.jpg"
+            alt="Gray's anatomy"
+          />
+        </div>
+        <div class="item">
+          <img class=".boxFilme" src="img/series/imagemLupin.jpg" alt="Lupin" />
+        </div>
+        <div class="item">
+          <img class=".boxFilme" src="img/series/loki.jpg" alt="Loki" />
+        </div>
+        <div class="item">
+          <img class=".boxFilme" src="img/series/lucifer.jpg" alt="Lucifer" />
+        </div>
+        <div class="item">
+          <img class=".boxFilme" src="img/series/simpsons.jpg" alt="Simpsons" />
+        </div>
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/series/imagemRiverDale.jpg"
+            alt="River dale"
+          />
+        </div>
+        <div class="item">
+          <img class=".boxFilme" src="img/series/ragnarok.jpg" alt="Ragnarok" />
+        </div>
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/series/sweetThooth.jpg"
+            alt="Sweet thoot"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="carroselFilmes">
+      <h3 id="filmes">Filmes</h3>
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/filmes/22contrTerra.jpg"
+            alt="22 contra a terra"
+          />
+        </div>
+        <div class="item">
+          <img class=".boxFilme" src="img/filmes/conriga.jpg" alt="Conriga" />
+        </div>
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/filmes/esquedraoTrovao.jpg"
+            alt="Esquadrão trovão"
+          />
+        </div>
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/filmes/godzila.jpg"
+            alt="Godzila vs kong"
+          />
+        </div>
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/filmes/monterpet.jpg"
+            alt="Monster pet"
+          />
+        </div>
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/filmes/infiltrado.jpg"
+            alt="Infiltrado"
+          />
+        </div>
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/filmes/mortalKombat.jpg"
+            alt="Mortal kombat"
+          />
+        </div>
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/filmes/invocacao.jpg"
+            alt="Invocação do mal"
+          />
+        </div>
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/filmes/rogaiPorNos.jpg"
+            alt="Rogai por nós"
+          />
+        </div>
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/filmes/semRemosso.jpg"
+            alt="Sem remorso"
+          />
+        </div>
+        <div class="item">
+          <img class=".boxFilme" src="img/filmes/soul.jpg" alt="Soul" />
+        </div>
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/filmes/tomEJerry.jpg"
+            alt="Tom e Jerry"
+          />
+        </div>
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/filmes/velozesEFuriosos.jpg"
+            alt="Velozes e furiosos"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="carroselFilmes">
+      <h3 id="documentarios">Documentários</h3>
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/documentarios/13Emenda.jpg"
+            alt="13 Emenda"
+          />
+        </div>
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/documentarios/absorvendoTabu.jpg"
+            alt="Absorvendo o tabu"
+          />
+        </div>
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/documentarios/aHistoriaDeDeus.jpg"
+            alt="A história de Deus"
+          />
+        </div>
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/documentarios/asCasasMaisExtraordinarias.jpg"
+            alt="As casas mais extraordinárias do mundo"
+          />
+        </div>
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/documentarios/conversandoComUmSerialKiller.jpg"
+            alt="Conversando com um serial killer"
+          />
+        </div>
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/documentarios/dancaDosPassaros.jpg"
+            alt="Dança dos pássaros"
+          />
+        </div>
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/documentarios/democraciaEmVertigem.jpg"
+            alt="Demoracria em vertigem"
+          />
+        </div>
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/documentarios/explicando.jpg"
+            alt="Explicando"
+          />
+        </div>
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/documentarios/makingAMurderer.jpg"
+            alt="Making a murderer"
+          />
+        </div>
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/documentarios/nossoPlanet.jpg"
+            alt="Nosso planeta"
+          />
+        </div>
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/documentarios/segundaGuerraEmCores.jpg"
+            alt="Segunda guerra em cores"
+          />
+        </div>
+        <div class="item">
+          <img
+            class=".boxFilme"
+            src="img/documentarios/virunga.jpg"
+            alt="Virunga"
+          />
+        </div>
+      </div>
+    </div>
+
     <script
       src="https://kit.fontawesome.com/1e1b925fc6.js"
       crossorigin="anonymous"

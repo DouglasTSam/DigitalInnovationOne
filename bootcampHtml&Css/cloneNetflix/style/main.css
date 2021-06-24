@@ -1,126 +1,138 @@
-:root{
-    --vermelho : #e50914;
-    --preta : #141414;
-    --cinza-claro : #aaa;
-    --branco : #fff;
+:root {
+  --vermelho: #e50914;
+  --preta: #141414;
+  --cinza-claro: #aaa;
+  --branco: #fff;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* elementos base */
 
-body{
-    background-color: var(--preta);
-    font-family:'Arial', Times, sans-serif;
-    color: var(--branco);
+body {
+  background-color: var(--preta);
+  font-family: "Arial", Times, sans-serif;
+  color: var(--branco);
 }
 
-header .container{
-    display: flex;
-    flex: row;
-    align-items: center;
-    justify-content: space-between;
+header #menu {
+  display: flex;
+  flex: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
-header .logo{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+#menu {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--preta);
+  z-index: 99;
 }
 
-header .logoTitulo{
-    color: var(--vermelho);
-    font-family: 'Arial Black';
-    font-size: 40px;
+header .logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
+header .logoTitulo {
+  color: var(--vermelho);
+  font-family: "Arial Black";
+  font-size: 40px;
+}
 
-header .subLogo{
-    color: var(--vermelho);
-    font-family: 'Arial Black';
-    font-size: 38px;
+header #subLogo {
+  color: var(--vermelho);
+  font-family: "Arial Black";
+  font-size: 37px;
 }
 
 header nav a {
-    text-decoration: none;
-    color: var(--cinza-claro);
-    margin-right: 10px;
+  text-decoration: none;
+  color: var(--cinza-claro);
+  margin-right: 10px;
 }
 
-header nav a:hoevr{
-    color: var(--branco);
+header nav a:hover {
+  color: var(--branco);
 }
 
 /* filme principal */
 
-.filmePrincipal{
-    font-size: 16px;
-    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,0.5)100%),url('../img/imagemSemRemorso.jpg');
-    
-    height: 400px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+.filmePrincipal {
+  font-size: 16px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url("../img/houseOfCards.jpg");
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+  height:400px;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
-.filmePrincipal .descricao{
-    margin-top: 10px;
-    margin-bottom: 40px;
+.filmePrincipal .descricao {
+  margin-top: 10px;
+  margin-bottom: 40px;
 }
 
-.titulo{
-    margin-top: 15%;
-    font-size: 40px;
-    font-family: 'Trebuchet MS', Arial, sans-serif;
+.titulo {
+  margin-top: 15%;
+  font-size: 40px;
+  font-family: "Trebuchet MS", Arial, sans-serif;
 }
 
-.botaoPrincipal{
-    background-color: rgba(0,0,0,.6);
-    border: none;
-    color: white;
-    border-radius: 5px;
-    
-    padding:15px 30px;
-    margin-right: 15px;
-    font-size: 12px;
+.botaoPrincipal {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: white;
+  border-radius: 5px;
 
-    cursor: pointer;
-    transition: 0.4s ease all;
+  padding: 15px 30px;
+  margin-right: 15px;
+  font-size: 12px;
+
+  cursor: pointer;
+  transition: 0.4s ease all;
 }
 
-.botaoPrincipal:hover{
-    background-color: white;
-    color:black;
+.botaoPrincipal:hover {
+  background-color: white;
+  color: black;
 }
 
-.botaoPrincipal I{
-    margin-right: 8px;
+.botaoPrincipal I {
+  margin-right: 8px;
 }
 
-.container{
-    margin-left: 20px;
+.container {
+  margin-left: 20px;
 }
 
-.filmePrincipal .container{
-    width: 70%;
+.filmePrincipal .container {
+  width: 70%;
 }
 
-.boxFilme{
-    height: 100%;
-    width: 100%;
-    display: block;
+.boxFilme {
+  height: 100%;
+  width: 100%;
+  display: block;
 }
 
-.carroselFilmes{
-    margin-top: 10px;
+.carroselFilmes {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.carroselFilmes h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
