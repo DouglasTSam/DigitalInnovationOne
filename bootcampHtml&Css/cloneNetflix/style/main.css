@@ -70,7 +70,7 @@ header nav a:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
     url("../img/houseOfCards.jpg");
 
-  height:400px;
+  height: 400px;
   background-size: cover;
 
   display: flex;
@@ -109,6 +109,19 @@ header nav a:hover {
   color: black;
 }
 
+.botaoPrincipal a {
+  color: white;
+  text-decoration: none;
+}
+
+.botaoPrincipal a:hover {
+  display: block;
+  height: 100%;
+  width: 100%;
+  color: black;
+  text-decoration: none;
+}
+
 .botaoPrincipal I {
   margin-right: 8px;
 }
@@ -135,4 +148,10 @@ header nav a:hover {
 .carroselFilmes h3 {
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+.carroselFilmes .item:hover {
+  transform: translateY(-3px);
+  transition: 0.4s;
+  cursor: pointer;
 }
