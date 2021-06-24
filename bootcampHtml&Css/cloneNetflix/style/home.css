@@ -1,0 +1,194 @@
+:root {
+  --vermelho: #e50914;
+  --preta: #141414;
+  --cinza-claro: #aaa;
+  --branco: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* elementos base */
+
+body {
+  font-family: "Arial", Times, sans-serif;
+  color: var(--branco);
+  background-image: url("../img/fundosite.jpg");
+  background-size: cover;
+}
+
+header #menu {
+  display: flex;
+  flex: row;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--preta);
+  z-index: 99;
+}
+
+header .logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header .logoTitulo {
+  color: var(--vermelho);
+  font-family: "Arial Black";
+  font-size: 40px;
+}
+
+header #subLogo {
+  color: var(--vermelho);
+  font-family: "Arial Black";
+  font-size: 37px;
+}
+
+#container {
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 20%;
+  transform: translateY(-20%);
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.85);
+  height: 600px;
+  border-radius: 10px;
+  align-items: center;
+  width: 450px;
+}
+
+#contentCenter{
+  width: 70%;
+  height: 85%;
+}
+
+#form{
+  padding-top: 15px;
+}
+
+#form h1{
+  margin-bottom: 20px
+}
+
+#form button{
+  margin-top: 30px;
+  background-color: #e50914;
+  color:white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#buttonEntrar{
+  cursor: pointer;
+}
+
+.inputItem{
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border:none;
+  margin-top:10px;
+  margin-bottom:10px;
+  padding-left: 10px;
+}
+
+#checkboxContainer{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#buttonEntrar{
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border:none;
+  margin-top:10px;
+  margin-bottom:20px;
+}
+
+#checkboxContainer a{
+  text-decoration: none;
+  color: #b3b3b3;
+  font-size: 13px;
+}
+
+.chk{
+  display: flex;
+  flex-direction: row;
+}
+
+.chk label{
+  font-size: 13px;
+  color:#b3b3b3;
+  margin-left: 2px;
+}
+
+.chk input {
+  display: none;
+}
+
+.chk span {
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  border-radius: 2px;
+  display: block;
+  background-color: #b3b3b3;
+  font-size: 13px;
+}
+
+.chk input:checked + span {
+  background-color: gray;
+  color:black;
+}
+
+#footer{
+  font-size: 13px;
+  margin-top: 50px;
+  color:#b3b3b3;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#footer img{
+  width: 25px;
+  height: 25px;
+}
+
+#footer p{
+  margin-top: 15px;
+}
+
+#assine{
+  font-size: 16px;
+}
+
+#assine a{
+  color: white;
+  cursor: pointer;
+}
+
+#saibaMais{
+  color:#0071eb;
+  cursor: pointer;
+}
+
+#fcb{
+  display: flex;
+  align-items: center;
+}
+
+#fcb a {
+  margin-left: 15px;
+}

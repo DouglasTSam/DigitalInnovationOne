@@ -24,9 +24,6 @@ header #menu {
   flex: row;
   align-items: center;
   justify-content: space-between;
-}
-
-#menu {
   position: fixed !important;
   top: 0;
   left: 0;
